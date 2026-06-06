@@ -1,6 +1,6 @@
 
-import { eventBus } from './event_bus.js';
-import { OrderCreatedEvent } from './src/events/order_created.event.js';
+import { eventBus } from '../event_bus.js';
+import { OrderCreatedEvent } from '../src/events/order_created.event.js';
 
 // Función para crear un pedido
 export function createOrder(orderId: string, userId: string, total: number) {

@@ -5,7 +5,7 @@
 import './payment.listener.js';
 // 2. Importamos la función de nuestro servicio que dispara la lógica.
 // @ts-ignore
-import { createOrder } from './order.service.js';
+import { createOrder } from './src/order.service.js';
 
 // 3. Ejecutamos la acción.
 // Al llamar a esta función, el 'order.service' emitirá el evento 
